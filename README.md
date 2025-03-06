@@ -1,29 +1,7 @@
-# frontend
+# Pour commencer : .ENV
 
-This template should help get you started developing with Vue 3 in Vite.
+Pour permettre l'envoi d'emails, renseigner les variables d'environnement SMTP_USER et SMTP_USER avec une adresse email et mdp 
 
-## Recommended IDE Setup
+# Les modèles
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Afin de permettre à l'admin de gérer le nombre de tables et la durée d'une réservation, une collection de paramètres a été créée permettant de renseigner ces informations, de les récupérer en front et de permettre à l'admin de modifier les paramètres dans la console admin
